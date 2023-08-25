@@ -34,7 +34,25 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
+//Takes whatever is inputed into the input and turns it into a new div inside the div "container"
+document.addEventListener("DOMContentLoaded", function() {
+    const insertButton = document.getElementById("insertButton");
+    const textInput = document.getElementById("textInput");
+    const container = document.getElementById("container");
+  
+    insertButton.addEventListener("click", function() {
+      const textValue = textInput.value;
+      
+      const newDiv = document.createElement('div');
+      const newP = document.createElement('p');
+      
+      newP.innerText = textValue;
+    
+      newDiv.appendChild(newP);
+      container.appendChild(newDiv);
+    });
+  });
+  
 
 
 

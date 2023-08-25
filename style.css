@@ -80,7 +80,25 @@ nav {
     height: 200px;
 }
 
+#divMaker{
+    text-align: center;
+}
 
+#container{
+    height:100px;
+    width:100%;
+}
+
+#textInput{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px; 
+    font-size: 16px;
+    background-color: #f8f8f8;    
+}
 
 
 
